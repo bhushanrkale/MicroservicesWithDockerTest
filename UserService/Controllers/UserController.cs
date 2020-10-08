@@ -30,7 +30,7 @@ namespace UserService.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "user1", "user2", "user3" };
+            return new string[] { "user1", "user2", "user3", "user4" };
         }
 
         // GET: api/User/5
